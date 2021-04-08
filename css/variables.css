@@ -1,0 +1,13 @@
+/* 
+    CSS pseudo-class matches the root element of a tree representing the doucmnet.
+    In HTML, :root represents the <html> element and is identical to the selector html,
+    except that its specificity is higher.
+
+    Declaring global CSS variables
+    ex)
+        --main-color: hotpink;
+        --pane-padding: 5px 42px;
+*/
+:root {
+  --yellow: #fae100;
+}
